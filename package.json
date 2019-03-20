@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Datebasese, Relational Databases, KnexMigrations, Seeding Data",
   "main": "index.js",
-  "repository": "https://github.com/dlimla/webdb-iii-challenge.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit1",
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlimla/webdb-iii-challenge.git"
+  },
   "author": "Daniel Lim",
   "license": "MIT",
   "dependencies": {
